@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ReusableExtension_Example' do
+  pod 'ReusableExtension', :path => '../'
+
+  target 'ReusableExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
