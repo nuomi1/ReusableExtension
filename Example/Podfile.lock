@@ -1,0 +1,16 @@
+PODS:
+  - ReusableExtension (0.1.0)
+
+DEPENDENCIES:
+  - ReusableExtension (from `../`)
+
+EXTERNAL SOURCES:
+  ReusableExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ReusableExtension: edbccc3c304b992ef6630bca5be28d0558edd8b4
+
+PODFILE CHECKSUM: 2bacce3d902366965db03b3ce3f034c39fad0d6f
+
+COCOAPODS: 1.6.1
