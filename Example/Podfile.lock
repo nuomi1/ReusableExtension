@@ -1,16 +1,70 @@
 PODS:
-  - ReusableExtension (0.1.0)
+  - FSPagerView (0.8.2)
+  - HJDanmaku (2.0.4)
+  - Reusable (4.0.5):
+    - Reusable/Storyboard (= 4.0.5)
+    - Reusable/View (= 4.0.5)
+  - Reusable/Storyboard (4.0.5)
+  - Reusable/View (4.0.5)
+  - ReusableExtension (1.0.0):
+    - Reusable
+    - ReusableExtension/FDTemplateLayoutCell (= 1.0.0)
+    - ReusableExtension/FSPagerView (= 1.0.0)
+    - ReusableExtension/HJDanmaku (= 1.0.0)
+    - ReusableExtension/RxCocoa (= 1.0.0)
+    - ReusableExtension/SpreadsheetView (= 1.0.0)
+  - ReusableExtension/FDTemplateLayoutCell (1.0.0):
+    - Reusable
+    - "UITableView+FDTemplateLayoutCell"
+  - ReusableExtension/FSPagerView (1.0.0):
+    - FSPagerView
+    - Reusable
+  - ReusableExtension/HJDanmaku (1.0.0):
+    - HJDanmaku
+    - Reusable
+  - ReusableExtension/RxCocoa (1.0.0):
+    - Reusable
+    - RxCocoa
+  - ReusableExtension/SpreadsheetView (1.0.0):
+    - Reusable
+    - SpreadsheetView
+  - RxAtomic (4.4.2)
+  - RxCocoa (4.4.2):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.4.2):
+    - RxAtomic (>= 4.4.2, ~> 4.4)
+  - SpreadsheetView (0.8.4)
+  - "UITableView+FDTemplateLayoutCell (1.6)"
 
 DEPENDENCIES:
   - ReusableExtension (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FSPagerView
+    - HJDanmaku
+    - Reusable
+    - RxAtomic
+    - RxCocoa
+    - RxSwift
+    - SpreadsheetView
+    - "UITableView+FDTemplateLayoutCell"
 
 EXTERNAL SOURCES:
   ReusableExtension:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ReusableExtension: edbccc3c304b992ef6630bca5be28d0558edd8b4
+  FSPagerView: 816a18842306973cc7cc6df8a5332272f7815c30
+  HJDanmaku: 1e185e2fcc24105678b51c1b1baac914b0935efa
+  Reusable: 188be1a54ac0691bc66e5bb24ec6eb91971b315b
+  ReusableExtension: a33d1f08acb5f79bff5edf8df3014756d02437c3
+  RxAtomic: d00e97c10db88c6f08540e0bf2752fc5a2404167
+  RxCocoa: 477990dc3b4c3ff55fb0ac77e1cc06244e0aaec8
+  RxSwift: 74c29b693c8e42b0f64400e8b06564575742d649
+  SpreadsheetView: 17c55b6dc82099993cc2ceb818248d19f3220998
+  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
 
-PODFILE CHECKSUM: 2bacce3d902366965db03b3ce3f034c39fad0d6f
+PODFILE CHECKSUM: ad9ca30976a10d4f2eed5674d6139d13eb035ca8
 
 COCOAPODS: 1.6.1
