@@ -5,24 +5,28 @@
 [![License](https://img.shields.io/cocoapods/l/ReusableExtension.svg?style=flat)](https://cocoapods.org/pods/ReusableExtension)
 [![Platform](https://img.shields.io/cocoapods/p/ReusableExtension.svg?style=flat)](https://cocoapods.org/pods/ReusableExtension)
 
+## Introduction
+
+Third-party module with [Reusable](https://github.com/AliSoftware/Reusable).
+
+- [UITableView+FDTemplateLayoutCell](https://github.com/forkingdog/UITableView-FDTemplateLayoutCell)
+- [FSPagerView](https://github.com/WenchaoD/FSPagerView)
+- [HJDanmaku](https://github.com/panghaijiao/HJDanmakuDemo)
+- [RxCocoa](https://github.com/ReactiveX/RxSwift/)
+- [SpreadsheetView](https://github.com/kishikawakatsumi/SpreadsheetView)
+
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo, and run `xcodegen && pod install && open ReusableExtension.xcworkspace` from the Example directory first.
 
 ## Requirements
 
-## Installation
-
-ReusableExtension is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'ReusableExtension'
-```
+- Swift 4.2
+- Xcode 10
 
 ## Author
 
-nuomi1, nuomi1@qq.com
+[nuomi1](mailto:nuomi1@qq.com)
 
 ## License
 
