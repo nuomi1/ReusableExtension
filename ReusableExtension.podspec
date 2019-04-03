@@ -59,4 +59,12 @@ Pod::Spec.new do |s|
       source_files_prefix + "SpreadsheetView+Reusable.swift",
     ]
   end
+
+  s.subspec "VerticalCardSwiper" do |ss|
+    ss.dependency "VerticalCardSwiper"
+    ss.source_files = [
+      source_file_utils,
+      source_files_prefix + "VerticalCardSwiper+Reusable.swift",
+    ]
+  end
 end

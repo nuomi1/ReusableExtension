@@ -13,6 +13,7 @@ PODS:
     - ReusableExtension/HJDanmaku (= 1.0.0)
     - ReusableExtension/RxCocoa (= 1.0.0)
     - ReusableExtension/SpreadsheetView (= 1.0.0)
+    - ReusableExtension/VerticalCardSwiper (= 1.0.0)
   - ReusableExtension/FDTemplateLayoutCell (1.0.0):
     - Reusable
     - "UITableView+FDTemplateLayoutCell"
@@ -28,6 +29,9 @@ PODS:
   - ReusableExtension/SpreadsheetView (1.0.0):
     - Reusable
     - SpreadsheetView
+  - ReusableExtension/VerticalCardSwiper (1.0.0):
+    - Reusable
+    - VerticalCardSwiper
   - RxAtomic (4.4.2)
   - RxCocoa (4.4.2):
     - RxSwift (>= 4.4.2, ~> 4.4)
@@ -35,6 +39,7 @@ PODS:
     - RxAtomic (>= 4.4.2, ~> 4.4)
   - SpreadsheetView (0.8.4)
   - "UITableView+FDTemplateLayoutCell (1.6)"
+  - VerticalCardSwiper (0.1.0)
 
 DEPENDENCIES:
   - ReusableExtension (from `../`)
@@ -49,6 +54,7 @@ SPEC REPOS:
     - RxSwift
     - SpreadsheetView
     - "UITableView+FDTemplateLayoutCell"
+    - VerticalCardSwiper
 
 EXTERNAL SOURCES:
   ReusableExtension:
@@ -58,13 +64,14 @@ SPEC CHECKSUMS:
   FSPagerView: 816a18842306973cc7cc6df8a5332272f7815c30
   HJDanmaku: 1e185e2fcc24105678b51c1b1baac914b0935efa
   Reusable: 188be1a54ac0691bc66e5bb24ec6eb91971b315b
-  ReusableExtension: a33d1f08acb5f79bff5edf8df3014756d02437c3
+  ReusableExtension: fa9451f902a92376a2d3493834515246fc07fbe8
   RxAtomic: d00e97c10db88c6f08540e0bf2752fc5a2404167
   RxCocoa: 477990dc3b4c3ff55fb0ac77e1cc06244e0aaec8
   RxSwift: 74c29b693c8e42b0f64400e8b06564575742d649
   SpreadsheetView: 17c55b6dc82099993cc2ceb818248d19f3220998
   "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  VerticalCardSwiper: 0903ea0fbc3e087e1995eb1d38b5f99fdd2de7ec
 
-PODFILE CHECKSUM: ad9ca30976a10d4f2eed5674d6139d13eb035ca8
+PODFILE CHECKSUM: 7679d7a39066fe1186c97cceae7012484902973e
 
 COCOAPODS: 1.6.1
