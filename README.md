@@ -14,6 +14,7 @@ Third-party module with [Reusable](https://github.com/AliSoftware/Reusable).
 - [HJDanmaku](https://github.com/panghaijiao/HJDanmakuDemo)
 - [RxCocoa](https://github.com/ReactiveX/RxSwift/)
 - [SpreadsheetView](https://github.com/kishikawakatsumi/SpreadsheetView)
+- [VerticalCardSwiper](https://github.com/JoniVR/VerticalCardSwiper)
 
 ## Example
 
