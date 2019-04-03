@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author = {"nuomi1" => "nuomi1@qq.com"}
   s.source = {:git => "https://github.com/nuomi1/ReusableExtension.git", :tag => s.version}
 
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "9.0"
 
   s.swift_version = "4.2"
 
@@ -57,6 +57,14 @@ Pod::Spec.new do |s|
     ss.source_files = [
       source_file_utils,
       source_files_prefix + "SpreadsheetView+Reusable.swift",
+    ]
+  end
+
+  s.subspec "VerticalCardSwiper" do |ss|
+    ss.dependency "VerticalCardSwiper"
+    ss.source_files = [
+      source_file_utils,
+      source_files_prefix + "VerticalCardSwiper+Reusable.swift",
     ]
   end
 end
