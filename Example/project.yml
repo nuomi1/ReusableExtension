@@ -13,7 +13,7 @@ targets:
         FRAMEWORK_SEARCH_PATHS: $(inherited)
         LIBRARY_SEARCH_PATHS: $(inherited)
         PRODUCT_BUNDLE_IDENTIFIER: org.cocoapods.demo.ReusableExtension-Example
-        SWIFT_VERSION: 4.2
+        SWIFT_VERSION: 5.0
       configs:
         Debug:
           OTHER_SWIFT_FLAGS: $(inherited) -Xfrontend -warn-long-expression-type-checking=300 -Xfrontend -warn-long-function-bodies=300

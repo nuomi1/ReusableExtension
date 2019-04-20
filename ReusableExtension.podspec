@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ReusableExtension"
-  s.version = "1.1.0"
+  s.version = "1.2.0"
   s.summary = "Third-party module with Reusable."
 
   s.homepage = "https://github.com/nuomi1/ReusableExtension"
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "9.0"
 
-  s.swift_version = "4.2"
+  s.swift_version = "5.0"
 
   source_files_prefix = "ReusableExtension/Classes/"
   source_file_utils = source_files_prefix + "Utils.swift"
@@ -34,6 +34,14 @@ Pod::Spec.new do |s|
     ss.source_files = [
       source_file_utils,
       source_files_prefix + "FSPagerView+Reusable.swift",
+    ]
+  end
+
+  s.subspec "G3GridView" do |ss|
+    ss.dependency "G3GridView"
+    ss.source_files = [
+      source_file_utils,
+      source_files_prefix + "G3GridView+Reusable.swift",
     ]
   end
 
