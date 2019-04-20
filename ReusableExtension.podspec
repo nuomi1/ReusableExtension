@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "9.0"
 
-  s.swift_version = "4.2"
+  s.swift_version = "5.0"
 
   source_files_prefix = "ReusableExtension/Classes/"
   source_file_utils = source_files_prefix + "Utils.swift"

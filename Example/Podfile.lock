@@ -37,14 +37,12 @@ PODS:
   - ReusableExtension/VerticalCardSwiper (1.1.0):
     - Reusable
     - VerticalCardSwiper
-  - RxAtomic (4.4.2)
-  - RxCocoa (4.4.2):
+  - RxCocoa (4.5.0):
     - RxSwift (>= 4.4.2, ~> 4.4)
-  - RxSwift (4.4.2):
-    - RxAtomic (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.5.0)
   - SpreadsheetView (0.8.4)
   - "UITableView+FDTemplateLayoutCell (1.6)"
-  - VerticalCardSwiper (0.1.0)
+  - VerticalCardSwiper (1.0.0)
 
 DEPENDENCIES:
   - ReusableExtension (from `../`)
@@ -55,7 +53,6 @@ SPEC REPOS:
     - G3GridView
     - HJDanmaku
     - Reusable
-    - RxAtomic
     - RxCocoa
     - RxSwift
     - SpreadsheetView
@@ -71,13 +68,12 @@ SPEC CHECKSUMS:
   G3GridView: ccfd08ab64ee380174a4c4cfe40ecc3ce7cc3bd4
   HJDanmaku: 1e185e2fcc24105678b51c1b1baac914b0935efa
   Reusable: 188be1a54ac0691bc66e5bb24ec6eb91971b315b
-  ReusableExtension: 654c93b9c4466507c1bb16d1c9bb38741d27b5ae
-  RxAtomic: d00e97c10db88c6f08540e0bf2752fc5a2404167
-  RxCocoa: 477990dc3b4c3ff55fb0ac77e1cc06244e0aaec8
-  RxSwift: 74c29b693c8e42b0f64400e8b06564575742d649
+  ReusableExtension: 0d0465b23a78ae3f1b0d3c516f71c8ee50dcc0e5
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
   SpreadsheetView: 17c55b6dc82099993cc2ceb818248d19f3220998
   "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
-  VerticalCardSwiper: 0903ea0fbc3e087e1995eb1d38b5f99fdd2de7ec
+  VerticalCardSwiper: 515b67e281731293cdf69d96904d67091389a1b4
 
 PODFILE CHECKSUM: 7679d7a39066fe1186c97cceae7012484902973e
 
