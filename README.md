@@ -11,6 +11,7 @@ Third-party module with [Reusable](https://github.com/AliSoftware/Reusable).
 
 - [UITableView+FDTemplateLayoutCell](https://github.com/forkingdog/UITableView-FDTemplateLayoutCell)
 - [FSPagerView](https://github.com/WenchaoD/FSPagerView)
+- [G3GridView](https://github.com/KyoheiG3/GridView)
 - [HJDanmaku](https://github.com/panghaijiao/HJDanmakuDemo)
 - [RxCocoa](https://github.com/ReactiveX/RxSwift/)
 - [SpreadsheetView](https://github.com/kishikawakatsumi/SpreadsheetView)
@@ -22,8 +23,8 @@ To run the example project, clone the repo, and run `xcodegen && pod install && 
 
 ## Requirements
 
-- Swift 4.2
-- Xcode 10
+- Swift 5.0
+- Xcode 10.2
 
 ## Author
 
