@@ -37,6 +37,14 @@ Pod::Spec.new do |s|
     ]
   end
 
+  s.subspec "G3GridView" do |ss|
+    ss.dependency "G3GridView"
+    ss.source_files = [
+      source_file_utils,
+      source_files_prefix + "G3GridView+Reusable.swift",
+    ]
+  end
+
   s.subspec "HJDanmaku" do |ss|
     ss.dependency "HJDanmaku"
     ss.source_files = [

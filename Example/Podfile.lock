@@ -1,35 +1,40 @@
 PODS:
   - FSPagerView (0.8.2)
+  - G3GridView (0.6.0)
   - HJDanmaku (2.0.4)
   - Reusable (4.0.5):
     - Reusable/Storyboard (= 4.0.5)
     - Reusable/View (= 4.0.5)
   - Reusable/Storyboard (4.0.5)
   - Reusable/View (4.0.5)
-  - ReusableExtension (1.0.0):
+  - ReusableExtension (1.1.0):
     - Reusable
-    - ReusableExtension/FDTemplateLayoutCell (= 1.0.0)
-    - ReusableExtension/FSPagerView (= 1.0.0)
-    - ReusableExtension/HJDanmaku (= 1.0.0)
-    - ReusableExtension/RxCocoa (= 1.0.0)
-    - ReusableExtension/SpreadsheetView (= 1.0.0)
-    - ReusableExtension/VerticalCardSwiper (= 1.0.0)
-  - ReusableExtension/FDTemplateLayoutCell (1.0.0):
+    - ReusableExtension/FDTemplateLayoutCell (= 1.1.0)
+    - ReusableExtension/FSPagerView (= 1.1.0)
+    - ReusableExtension/G3GridView (= 1.1.0)
+    - ReusableExtension/HJDanmaku (= 1.1.0)
+    - ReusableExtension/RxCocoa (= 1.1.0)
+    - ReusableExtension/SpreadsheetView (= 1.1.0)
+    - ReusableExtension/VerticalCardSwiper (= 1.1.0)
+  - ReusableExtension/FDTemplateLayoutCell (1.1.0):
     - Reusable
     - "UITableView+FDTemplateLayoutCell"
-  - ReusableExtension/FSPagerView (1.0.0):
+  - ReusableExtension/FSPagerView (1.1.0):
     - FSPagerView
     - Reusable
-  - ReusableExtension/HJDanmaku (1.0.0):
+  - ReusableExtension/G3GridView (1.1.0):
+    - G3GridView
+    - Reusable
+  - ReusableExtension/HJDanmaku (1.1.0):
     - HJDanmaku
     - Reusable
-  - ReusableExtension/RxCocoa (1.0.0):
+  - ReusableExtension/RxCocoa (1.1.0):
     - Reusable
     - RxCocoa
-  - ReusableExtension/SpreadsheetView (1.0.0):
+  - ReusableExtension/SpreadsheetView (1.1.0):
     - Reusable
     - SpreadsheetView
-  - ReusableExtension/VerticalCardSwiper (1.0.0):
+  - ReusableExtension/VerticalCardSwiper (1.1.0):
     - Reusable
     - VerticalCardSwiper
   - RxAtomic (4.4.2)
@@ -47,6 +52,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - FSPagerView
+    - G3GridView
     - HJDanmaku
     - Reusable
     - RxAtomic
@@ -62,9 +68,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FSPagerView: 816a18842306973cc7cc6df8a5332272f7815c30
+  G3GridView: ccfd08ab64ee380174a4c4cfe40ecc3ce7cc3bd4
   HJDanmaku: 1e185e2fcc24105678b51c1b1baac914b0935efa
   Reusable: 188be1a54ac0691bc66e5bb24ec6eb91971b315b
-  ReusableExtension: fa9451f902a92376a2d3493834515246fc07fbe8
+  ReusableExtension: 654c93b9c4466507c1bb16d1c9bb38741d27b5ae
   RxAtomic: d00e97c10db88c6f08540e0bf2752fc5a2404167
   RxCocoa: 477990dc3b4c3ff55fb0ac77e1cc06244e0aaec8
   RxSwift: 74c29b693c8e42b0f64400e8b06564575742d649
