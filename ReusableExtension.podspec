@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ReusableExtension"
-  s.version = "1.2.1"
+  s.version = "1.3.0"
   s.summary = "Third-party module with Reusable."
 
   s.homepage = "https://github.com/nuomi1/ReusableExtension"
