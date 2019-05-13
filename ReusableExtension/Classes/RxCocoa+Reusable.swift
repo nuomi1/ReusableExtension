@@ -10,19 +10,19 @@ import RxCocoa
 import RxSwift
 
 public extension Reactive where Base: UICollectionView {
-    func items<S: Sequence, T: UICollectionViewCell, O: ObservableType>(cellType: T.Type)
-        -> (_ source: O)
-        -> (_ configureCell: @escaping (Int, S.Iterator.Element, T) -> Void)
-        -> Disposable where T: Reusable, O.E == S {
+    func items<Sequence: Swift.Sequence, T: UICollectionViewCell, Source: ObservableType>(cellType: T.Type)
+        -> (_ source: Source)
+        -> (_ configureCell: @escaping (Int, Sequence.Iterator.Element, T) -> Void)
+        -> Disposable where T: Reusable, Source.Element == Sequence {
         return items(cellIdentifier: cellType.reuseIdentifier, cellType: cellType)
     }
 }
 
 public extension Reactive where Base: UITableView {
-    func items<S: Sequence, T: UITableViewCell, O: ObservableType>(cellType: T.Type)
-        -> (_ source: O)
-        -> (_ configureCell: @escaping (Int, S.Iterator.Element, T) -> Void)
-        -> Disposable where T: Reusable, O.E == S {
+    func items<Sequence: Swift.Sequence, T: UITableViewCell, Source: ObservableType>(cellType: T.Type)
+        -> (_ source: Source)
+        -> (_ configureCell: @escaping (Int, Sequence.Iterator.Element, T) -> Void)
+        -> Disposable where T: Reusable, Source.Element == Sequence {
         return items(cellIdentifier: cellType.reuseIdentifier, cellType: cellType)
     }
 }

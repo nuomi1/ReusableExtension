@@ -21,7 +21,11 @@ public extension SpreadsheetView {
                                             cellType: T.Type = T.self) -> T where T: Reusable {
         let bareCell = dequeueReusableCell(withReuseIdentifier: cellType.reuseIdentifier, for: indexPath)
         guard let cell = bareCell as? T else {
-            fatalError(makeErrorMessage(forType: cellType))
+            fatalError(
+                "could not dequeue a view of kind: \(String(reflecting: cellType)) with identifier \(cellType.reuseIdentifier)"
+                    + " - "
+                    + "must register a nib or a class for the identifier or connect a prototype cell in a storyboard"
+            )
         }
         return cell
     }
