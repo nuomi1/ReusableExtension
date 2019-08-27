@@ -22,7 +22,7 @@ public extension FSPagerView {
         let bareCell = dequeueReusableCell(withReuseIdentifier: cellType.reuseIdentifier, at: index)
         guard let cell = bareCell as? T else {
             fatalError(
-                "could not dequeue a view of kind: \(String(reflecting: cellType)) with identifier \(cellType.reuseIdentifier)"
+                "could not dequeue a \(String(reflecting: FSPagerViewCell.self)) with identifier \(cellType.reuseIdentifier)"
                     + " - "
                     + "must register a nib or a class for the identifier or connect a prototype cell in a storyboard"
             )

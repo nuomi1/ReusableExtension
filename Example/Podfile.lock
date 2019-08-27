@@ -1,5 +1,5 @@
 PODS:
-  - FSPagerView (0.8.2)
+  - FSPagerView (0.8.3)
   - G3GridView (0.6.0)
   - HJDanmaku (2.0.4)
   - Reusable (4.1.0):
@@ -7,34 +7,34 @@ PODS:
     - Reusable/View (= 4.1.0)
   - Reusable/Storyboard (4.1.0)
   - Reusable/View (4.1.0)
-  - ReusableExtension (1.2.1):
+  - ReusableExtension (1.3.0):
     - Reusable
-    - ReusableExtension/FDTemplateLayoutCell (= 1.2.1)
-    - ReusableExtension/FSPagerView (= 1.2.1)
-    - ReusableExtension/G3GridView (= 1.2.1)
-    - ReusableExtension/HJDanmaku (= 1.2.1)
-    - ReusableExtension/RxCocoa (= 1.2.1)
-    - ReusableExtension/SpreadsheetView (= 1.2.1)
-    - ReusableExtension/VerticalCardSwiper (= 1.2.1)
-  - ReusableExtension/FDTemplateLayoutCell (1.2.1):
+    - ReusableExtension/FDTemplateLayoutCell (= 1.3.0)
+    - ReusableExtension/FSPagerView (= 1.3.0)
+    - ReusableExtension/G3GridView (= 1.3.0)
+    - ReusableExtension/HJDanmaku (= 1.3.0)
+    - ReusableExtension/RxCocoa (= 1.3.0)
+    - ReusableExtension/SpreadsheetView (= 1.3.0)
+    - ReusableExtension/VerticalCardSwiper (= 1.3.0)
+  - ReusableExtension/FDTemplateLayoutCell (1.3.0):
     - Reusable
     - "UITableView+FDTemplateLayoutCell"
-  - ReusableExtension/FSPagerView (1.2.1):
+  - ReusableExtension/FSPagerView (1.3.0):
     - FSPagerView
     - Reusable
-  - ReusableExtension/G3GridView (1.2.1):
+  - ReusableExtension/G3GridView (1.3.0):
     - G3GridView
     - Reusable
-  - ReusableExtension/HJDanmaku (1.2.1):
+  - ReusableExtension/HJDanmaku (1.3.0):
     - HJDanmaku
     - Reusable
-  - ReusableExtension/RxCocoa (1.2.1):
+  - ReusableExtension/RxCocoa (1.3.0):
     - Reusable
     - RxCocoa
-  - ReusableExtension/SpreadsheetView (1.2.1):
+  - ReusableExtension/SpreadsheetView (1.3.0):
     - Reusable
     - SpreadsheetView
-  - ReusableExtension/VerticalCardSwiper (1.2.1):
+  - ReusableExtension/VerticalCardSwiper (1.3.0):
     - Reusable
     - VerticalCardSwiper
   - RxCocoa (5.0.0):
@@ -45,13 +45,13 @@ PODS:
   - RxSwift (5.0.0)
   - SpreadsheetView (0.8.4)
   - "UITableView+FDTemplateLayoutCell (1.6)"
-  - VerticalCardSwiper (1.0.0)
+  - VerticalCardSwiper (2.0.1)
 
 DEPENDENCIES:
   - ReusableExtension (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://cdn.cocoapods.org/:
     - FSPagerView
     - G3GridView
     - HJDanmaku
@@ -68,18 +68,18 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FSPagerView: 816a18842306973cc7cc6df8a5332272f7815c30
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
   G3GridView: ccfd08ab64ee380174a4c4cfe40ecc3ce7cc3bd4
   HJDanmaku: 1e185e2fcc24105678b51c1b1baac914b0935efa
   Reusable: 82be188f29d96dc5eff0db7b2393bcc08d2cdd5b
-  ReusableExtension: 255a6e9d6fd19ff4adcc563bd1e2fec25cfb24f1
+  ReusableExtension: 130b0f48014d75eadebd7c19bd5575d036272117
   RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
   RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
   RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
   SpreadsheetView: 17c55b6dc82099993cc2ceb818248d19f3220998
   "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
-  VerticalCardSwiper: 515b67e281731293cdf69d96904d67091389a1b4
+  VerticalCardSwiper: a152823dbe457f7cc8920c86579c928bfe40d502
 
-PODFILE CHECKSUM: 7679d7a39066fe1186c97cceae7012484902973e
+PODFILE CHECKSUM: cb17ad8a224c634c6fb3ae2cf916a4279a06d4f5
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.7.5

@@ -1,5 +1,11 @@
+install! "cocoapods",
+         disable_input_output_paths: true
+
+source "https://cdn.cocoapods.org/"
+
 platform :ios, "9.0"
 use_frameworks!
+inhibit_all_warnings!
 
 target "ReusableExtension_Example" do
   pod "ReusableExtension", :path => "../"
