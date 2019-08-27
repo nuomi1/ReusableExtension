@@ -23,8 +23,10 @@ To run the example project, clone the repo, and run `xcodegen && pod install && 
 
 ## Requirements
 
-- Swift 5.0
-- Xcode 10.2
+- CocoaPods >= 1.7.2
+- Swift >= 5.0
+- Xcode >= 10.2
+- XcodeGen
 
 ## Author
 
