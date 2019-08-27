@@ -15,7 +15,7 @@ public extension UITableView {
                                 configuration: { bareCell in
                                     guard let cell = bareCell as? T else {
                                         fatalError(
-                                            "could not dequeue a view of kind: \(String(reflecting: cellType)) with identifier \(cellType.reuseIdentifier)"
+                                            "could not dequeue a \(String(reflecting: UITableViewCell.self)) with identifier \(cellType.reuseIdentifier)"
                                                 + " - "
                                                 + "must register a nib or a class for the identifier or connect a prototype cell in a storyboard"
                                         )
@@ -32,7 +32,7 @@ public extension UITableView {
                                 configuration: { bareCell in
                                     guard let cell = bareCell as? T else {
                                         fatalError(
-                                            "could not dequeue a view of kind: \(String(reflecting: cellType)) with identifier \(cellType.reuseIdentifier)"
+                                            "could not dequeue a \(String(reflecting: UITableViewCell.self)) with identifier \(cellType.reuseIdentifier)"
                                                 + " - "
                                                 + "must register a nib or a class for the identifier or connect a prototype cell in a storyboard"
                                         )
@@ -49,7 +49,7 @@ public extension UITableView {
                                 configuration: { bareCell in
                                     guard let cell = bareCell as? T else {
                                         fatalError(
-                                            "could not dequeue a view of kind: \(String(reflecting: cellType)) with identifier \(cellType.reuseIdentifier)"
+                                            "could not dequeue a \(String(reflecting: UITableViewCell.self)) with identifier \(cellType.reuseIdentifier)"
                                                 + " - "
                                                 + "must register a nib or a class for the identifier or connect a prototype cell in a storyboard"
                                         )
@@ -66,7 +66,7 @@ public extension UITableView {
                                             configuration: { bareView in
                                                 guard let view = bareView as? T else {
                                                     fatalError(
-                                                        "could not dequeue a view of kind: \(String(reflecting: viewType)) with identifier \(viewType.reuseIdentifier)"
+                                                        "could not dequeue a \(String(reflecting: UITableViewCell.self)) with identifier \(viewType.reuseIdentifier)"
                                                             + " - "
                                                             + "must register a nib or a class for the identifier or connect a prototype cell in a storyboard"
                                                     )

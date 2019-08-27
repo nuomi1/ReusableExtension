@@ -24,7 +24,7 @@ public extension VerticalCardSwiperView {
         let bareCell = dequeueReusableCell(withReuseIdentifier: cellType.reuseIdentifier, for: index)
         guard let cell = bareCell as? T else {
             fatalError(
-                "could not dequeue a view of kind: \(String(reflecting: cellType)) with identifier \(cellType.reuseIdentifier)"
+                "could not dequeue a \(String(reflecting: CardCell.self)) with identifier \(cellType.reuseIdentifier)"
                     + " - "
                     + "must register a nib or a class for the identifier or connect a prototype cell in a storyboard"
             )
