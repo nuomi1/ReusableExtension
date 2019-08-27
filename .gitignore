@@ -88,3 +88,7 @@ build/
 **/xcshareddata/WorkspaceSettings.xcsettings
 
 # End of https://www.gitignore.io/api/carthage,cocoapods,macos,swiftpackagemanager,xcode
+
+### XcodeGen ###
+*.xcodeproj
+*.xcworkspace
