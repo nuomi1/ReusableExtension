@@ -51,7 +51,7 @@ DEPENDENCIES:
   - ReusableExtension (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://cdn.cocoapods.org/:
     - FSPagerView
     - G3GridView
     - HJDanmaku
@@ -80,6 +80,6 @@ SPEC CHECKSUMS:
   "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
   VerticalCardSwiper: a152823dbe457f7cc8920c86579c928bfe40d502
 
-PODFILE CHECKSUM: 7679d7a39066fe1186c97cceae7012484902973e
+PODFILE CHECKSUM: cb17ad8a224c634c6fb3ae2cf916a4279a06d4f5
 
 COCOAPODS: 1.7.5
