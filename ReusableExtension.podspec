@@ -21,6 +21,11 @@ Pod::Spec.new do |s|
     ss.source_files = source_files_prefix + "FDTemplateLayoutCell+Reusable.swift"
   end
 
+  s.subspec "FSCalendar" do |ss|
+    ss.dependency "FSCalendar"
+    ss.source_files = source_files_prefix + "FSCalendar+Reusable.swift"
+  end
+
   s.subspec "FSPagerView" do |ss|
     ss.dependency "FSPagerView"
     ss.source_files = source_files_prefix + "FSPagerView+Reusable.swift"
