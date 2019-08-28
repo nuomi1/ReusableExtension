@@ -10,6 +10,7 @@
 Third-party module with [Reusable](https://github.com/AliSoftware/Reusable).
 
 - [UITableView+FDTemplateLayoutCell](https://github.com/forkingdog/UITableView-FDTemplateLayoutCell)
+- [FSCalendar](https://github.com/WenchaoD/FSCalendar)
 - [FSPagerView](https://github.com/WenchaoD/FSPagerView)
 - [G3GridView](https://github.com/KyoheiG3/GridView)
 - [HJDanmaku](https://github.com/panghaijiao/HJDanmakuDemo)
