@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ReusableExtension"
-  s.version = "1.3.1"
+  s.version = "1.4.0"
   s.summary = "Third-party module with Reusable."
 
   s.homepage = "https://github.com/nuomi1/ReusableExtension"
@@ -19,6 +19,11 @@ Pod::Spec.new do |s|
   s.subspec "FDTemplateLayoutCell" do |ss|
     ss.dependency "UITableView+FDTemplateLayoutCell"
     ss.source_files = source_files_prefix + "FDTemplateLayoutCell+Reusable.swift"
+  end
+
+  s.subspec "FSCalendar" do |ss|
+    ss.dependency "FSCalendar"
+    ss.source_files = source_files_prefix + "FSCalendar+Reusable.swift"
   end
 
   s.subspec "FSPagerView" do |ss|
