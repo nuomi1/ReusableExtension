@@ -75,7 +75,7 @@ public extension UITableView {
         return fd_heightForHeaderFooterView(withIdentifier: viewType.reuseIdentifier) { bareView in
             guard let view = bareView as? T else {
                 fatalError(
-                    "could not dequeue a \(String(reflecting: UITableViewCell.self)) with identifier \(viewType.reuseIdentifier)"
+                    "could not dequeue a \(String(reflecting: UITableViewHeaderFooterView.self)) with identifier \(viewType.reuseIdentifier)"
                         + " - "
                         + "must register a nib or a class for the identifier or connect a prototype cell in a storyboard"
                 )
