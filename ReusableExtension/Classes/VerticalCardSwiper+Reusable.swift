@@ -9,6 +9,7 @@ import Reusable
 import VerticalCardSwiper
 
 public extension VerticalCardSwiper {
+
     final func register<T: CardCell>(cellType: T.Type) where T: NibReusable {
         register(nib: cellType.nib, forCellWithReuseIdentifier: cellType.reuseIdentifier)
     }
@@ -19,8 +20,11 @@ public extension VerticalCardSwiper {
 }
 
 public extension VerticalCardSwiperView {
-    final func dequeueReusableCell<T: CardCell>(at index: Int,
-                                                cellType: T.Type = T.self) -> T where T: Reusable {
+
+    final func dequeueReusableCell<T: CardCell>(
+        at index: Int,
+        cellType: T.Type = T.self
+    ) -> T where T: Reusable {
         let bareCell = dequeueReusableCell(withReuseIdentifier: cellType.reuseIdentifier, for: index)
         guard let cell = bareCell as? T else {
             fatalError(

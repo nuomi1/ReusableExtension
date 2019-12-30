@@ -9,6 +9,7 @@ import HJDanmaku
 import Reusable
 
 public extension HJDanmakuView {
+
     final func register<T: HJDanmakuCell>(cellType: T.Type) where T: Reusable {
         register(cellType.self, forCellReuseIdentifier: cellType.reuseIdentifier)
     }
