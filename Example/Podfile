@@ -19,4 +19,6 @@ post_install do |installer|
       end
     end
   end
+
+  installer.pods_project.root_object.attributes["ORGANIZATIONNAME"] = "nuomi1"
 end
