@@ -30,11 +30,13 @@ public extension UITableView {
     ) -> CGFloat where T: Reusable {
         return fd_heightForCell(withIdentifier: cellType.reuseIdentifier) { bareCell in
             guard let cell = bareCell as? T else {
+                // swiftlint:disable line_length
                 fatalError(
                     "could not dequeue a \(String(reflecting: UITableViewCell.self)) with identifier \(cellType.reuseIdentifier)"
                         + " - "
                         + "must register a nib or a class for the identifier or connect a prototype cell in a storyboard"
                 )
+                // swiftlint:enable line_length
             }
             configuration(cell)
         }
@@ -50,11 +52,13 @@ public extension UITableView {
             cacheBy: indexPath
         ) { bareCell in
             guard let cell = bareCell as? T else {
+                // swiftlint:disable line_length
                 fatalError(
                     "could not dequeue a \(String(reflecting: UITableViewCell.self)) with identifier \(cellType.reuseIdentifier)"
                         + " - "
                         + "must register a nib or a class for the identifier or connect a prototype cell in a storyboard"
                 )
+                // swiftlint:enable line_length
             }
             configuration(cell)
         }
@@ -70,11 +74,13 @@ public extension UITableView {
             cacheByKey: key as NSString
         ) { bareCell in
             guard let cell = bareCell as? T else {
+                // swiftlint:disable line_length
                 fatalError(
                     "could not dequeue a \(String(reflecting: UITableViewCell.self)) with identifier \(cellType.reuseIdentifier)"
                         + " - "
                         + "must register a nib or a class for the identifier or connect a prototype cell in a storyboard"
                 )
+                // swiftlint:enable line_length
             }
             configuration(cell)
         }
@@ -89,11 +95,13 @@ public extension UITableView {
     ) -> CGFloat where T: Reusable {
         return fd_heightForHeaderFooterView(withIdentifier: viewType.reuseIdentifier) { bareView in
             guard let view = bareView as? T else {
+                // swiftlint:disable line_length
                 fatalError(
                     "could not dequeue a \(String(reflecting: UITableViewHeaderFooterView.self)) with identifier \(viewType.reuseIdentifier)"
                         + " - "
                         + "must register a nib or a class for the identifier or connect a prototype cell in a storyboard"
                 )
+                // swiftlint:enable line_length
             }
             configuration(view)
         }
