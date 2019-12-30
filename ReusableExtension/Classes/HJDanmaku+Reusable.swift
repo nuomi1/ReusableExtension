@@ -3,12 +3,14 @@
 //  ReusableExtension
 //
 //  Created by nuomi1 on 28/3/2019.
+//  Copyright © 2019 nuomi1. All rights reserved.
 //
 
 import HJDanmaku
 import Reusable
 
 public extension HJDanmakuView {
+
     final func register<T: HJDanmakuCell>(cellType: T.Type) where T: Reusable {
         register(cellType.self, forCellReuseIdentifier: cellType.reuseIdentifier)
     }

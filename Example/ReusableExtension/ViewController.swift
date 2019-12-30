@@ -3,12 +3,13 @@
 //  ReusableExtension
 //
 //  Created by nuomi1 on 03/19/2019.
-//  Copyright (c) 2019 nuomi1. All rights reserved.
+//  Copyright © 2019 nuomi1. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

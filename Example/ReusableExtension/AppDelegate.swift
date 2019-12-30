@@ -3,16 +3,20 @@
 //  ReusableExtension
 //
 //  Created by nuomi1 on 03/19/2019.
-//  Copyright (c) 2019 nuomi1. All rights reserved.
+//  Copyright © 2019 nuomi1. All rights reserved.
 //
 
 import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+
     var window: UIWindow?
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    func application(
+        _ application: UIApplication,
+        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
+    ) -> Bool {
         // Override point for customization after application launch.
         return true
     }

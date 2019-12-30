@@ -3,12 +3,14 @@
 //  ReusableExtension
 //
 //  Created by nuomi1 on 19/3/2019.
+//  Copyright © 2019 nuomi1. All rights reserved.
 //
 
 import FSPagerView
 import Reusable
 
 public extension FSPagerView {
+
     final func register<T: FSPagerViewCell>(cellType: T.Type) where T: NibReusable {
         register(cellType.nib, forCellWithReuseIdentifier: cellType.reuseIdentifier)
     }
@@ -17,8 +19,10 @@ public extension FSPagerView {
         register(cellType.self, forCellWithReuseIdentifier: cellType.reuseIdentifier)
     }
 
-    final func dequeueReusableCell<T: FSPagerViewCell>(at index: Int,
-                                                       cellType: T.Type = T.self) -> T where T: Reusable {
+    final func dequeueReusableCell<T: FSPagerViewCell>(
+        at index: Int,
+        cellType: T.Type = T.self
+    ) -> T where T: Reusable {
         let bareCell = dequeueReusableCell(withReuseIdentifier: cellType.reuseIdentifier, at: index)
         guard let cell = bareCell as? T else {
             fatalError(
