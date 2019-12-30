@@ -1,5 +1,8 @@
 name: ReusableExtension
 
+attributes:
+  ORGANIZATIONNAME: nuomi1
+
 targets:
   ReusableExtension_Example:
     type: application

@@ -3,6 +3,7 @@
 //  ReusableExtension
 //
 //  Created by nuomi1 on 19/3/2019.
+//  Copyright © 2019 nuomi1. All rights reserved.
 //
 
 import FSPagerView
