@@ -4,9 +4,9 @@ Pod::Spec.new do |s|
   s.summary = "Third-party module with Reusable."
 
   s.homepage = "https://github.com/nuomi1/ReusableExtension"
-  s.license = {:type => "MIT", :file => "LICENSE"}
-  s.author = {"nuomi1" => "nuomi1@qq.com"}
-  s.source = {:git => "https://github.com/nuomi1/ReusableExtension.git", :tag => s.version}
+  s.license = { :type => "MIT", :file => "LICENSE" }
+  s.author = { "nuomi1" => "nuomi1@qq.com" }
+  s.source = { :git => "https://github.com/nuomi1/ReusableExtension.git", :tag => s.version }
 
   s.ios.deployment_target = "9.0"
 
