@@ -1,0 +1,6 @@
+excluded:
+  - Example/Pods
+
+line_length:
+  ignores_comments: true
+  ignores_interpolated_strings: true
