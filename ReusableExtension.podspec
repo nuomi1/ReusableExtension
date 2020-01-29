@@ -14,6 +14,11 @@ Pod::Spec.new do |s|
 
   s.dependency "Reusable"
 
+  s.subspec "DataSourceKit" do |ss|
+    ss.dependency "DataSourceKit"
+    ss.source_files = "ReusableExtension/Classes/DataSourceKit+Reusable.swift"
+  end
+
   s.subspec "FDTemplateLayoutCell" do |ss|
     ss.dependency "UITableView+FDTemplateLayoutCell"
     ss.source_files = "ReusableExtension/Classes/FDTemplateLayoutCell+Reusable.swift"
