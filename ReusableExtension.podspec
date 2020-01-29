@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ReusableExtension"
-  s.version = "1.5.0"
+  s.version = "1.6.0"
   s.summary = "Third-party module with Reusable."
 
   s.homepage = "https://github.com/nuomi1/ReusableExtension"
@@ -13,6 +13,11 @@ Pod::Spec.new do |s|
   s.swift_version = "5.0"
 
   s.dependency "Reusable"
+
+  s.subspec "DataSourceKit" do |ss|
+    ss.dependency "DataSourceKit"
+    ss.source_files = "ReusableExtension/Classes/DataSourceKit+Reusable.swift"
+  end
 
   s.subspec "FDTemplateLayoutCell" do |ss|
     ss.dependency "UITableView+FDTemplateLayoutCell"

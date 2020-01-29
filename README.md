@@ -9,6 +9,7 @@
 
 Third-party module with [Reusable](https://github.com/AliSoftware/Reusable).
 
+- [DataSourceKit](https://github.com/ishkawa/DataSourceKit)
 - [UITableView+FDTemplateLayoutCell](https://github.com/forkingdog/UITableView-FDTemplateLayoutCell)
 - [FSCalendar](https://github.com/WenchaoD/FSCalendar)
 - [FSPagerView](https://github.com/WenchaoD/FSPagerView)
