@@ -4,6 +4,9 @@ PODS:
   - FSPagerView (0.8.3)
   - G3GridView (0.7.0)
   - HJDanmaku (2.0.4)
+  - IGListDiffKit (4.0.0)
+  - IGListKit (4.0.0):
+    - IGListDiffKit (= 4.0.0)
   - Reusable (4.1.1):
     - Reusable/Storyboard (= 4.1.1)
     - Reusable/View (= 4.1.1)
@@ -17,6 +20,7 @@ PODS:
     - ReusableExtension/FSPagerView (= 1.6.0)
     - ReusableExtension/G3GridView (= 1.6.0)
     - ReusableExtension/HJDanmaku (= 1.6.0)
+    - ReusableExtension/IGListKit (= 1.6.0)
     - ReusableExtension/RxCocoa (= 1.6.0)
     - ReusableExtension/SpreadsheetView (= 1.6.0)
     - ReusableExtension/VerticalCardSwiper (= 1.6.0)
@@ -37,6 +41,9 @@ PODS:
     - Reusable
   - ReusableExtension/HJDanmaku (1.6.0):
     - HJDanmaku
+    - Reusable
+  - ReusableExtension/IGListKit (1.6.0):
+    - IGListKit
     - Reusable
   - ReusableExtension/RxCocoa (1.6.0):
     - Reusable
@@ -67,6 +74,8 @@ SPEC REPOS:
     - FSPagerView
     - G3GridView
     - HJDanmaku
+    - IGListDiffKit
+    - IGListKit
     - Reusable
     - RxCocoa
     - RxRelay
@@ -85,8 +94,10 @@ SPEC CHECKSUMS:
   FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
   G3GridView: 3500ad938744d81f6707929c56ff71e78b37907e
   HJDanmaku: 1e185e2fcc24105678b51c1b1baac914b0935efa
+  IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
+  IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
   Reusable: 53a9acf5c536f229b31b5865782414b508252ddb
-  ReusableExtension: 85d2783bbd56f8916295f66d9320f073394520a8
+  ReusableExtension: bf28a94e13fa83f4bf024e19f02b46412b90e0de
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178

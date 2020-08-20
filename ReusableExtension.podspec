@@ -44,6 +44,11 @@ Pod::Spec.new do |s|
     ss.source_files = "ReusableExtension/Classes/HJDanmaku+Reusable.swift"
   end
 
+  s.subspec "IGListKit" do |ss|
+    ss.dependency "IGListKit"
+    ss.source_files = "ReusableExtension/Classes/IGListKit+Reusable.swift"
+  end
+
   s.subspec "RxCocoa" do |ss|
     ss.dependency "RxCocoa"
     ss.source_files = "ReusableExtension/Classes/RxCocoa+Reusable.swift"
