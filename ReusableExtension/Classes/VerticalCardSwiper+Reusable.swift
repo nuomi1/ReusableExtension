@@ -9,20 +9,20 @@
 import Reusable
 import VerticalCardSwiper
 
-public extension VerticalCardSwiper {
+extension VerticalCardSwiper {
 
-    final func register<T: CardCell>(cellType: T.Type) where T: NibReusable {
+    public final func register<T: CardCell>(cellType: T.Type) where T: NibReusable {
         register(nib: cellType.nib, forCellWithReuseIdentifier: cellType.reuseIdentifier)
     }
 
-    final func register<T: CardCell>(cellType: T.Type) where T: Reusable {
+    public final func register<T: CardCell>(cellType: T.Type) where T: Reusable {
         register(cellType.self, forCellWithReuseIdentifier: cellType.reuseIdentifier)
     }
 }
 
-public extension VerticalCardSwiperView {
+extension VerticalCardSwiperView {
 
-    final func dequeueReusableCell<T: CardCell>(
+    public final func dequeueReusableCell<T: CardCell>(
         at index: Int,
         cellType: T.Type = T.self
     ) -> T where T: Reusable {

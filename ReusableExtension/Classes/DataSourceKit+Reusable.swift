@@ -9,9 +9,9 @@
 import DataSourceKit
 import Reusable
 
-public extension CellBinder {
+extension CellBinder {
 
-    init<T: UICollectionViewCell>(
+    public init<T: UICollectionViewCell>(
         cellType: T.Type,
         registrationMethod: RegistrationMethod,
         configureCell: @escaping (T) -> Void
@@ -24,7 +24,7 @@ public extension CellBinder {
         )
     }
 
-    init<T: UITableViewCell>(
+    public init<T: UITableViewCell>(
         cellType: T.Type,
         registrationMethod: RegistrationMethod,
         configureCell: @escaping (T) -> Void

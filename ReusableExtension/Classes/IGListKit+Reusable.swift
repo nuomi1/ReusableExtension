@@ -9,9 +9,9 @@
 import IGListKit
 import Reusable
 
-public extension ListCollectionContext {
+extension ListCollectionContext {
 
-    func dequeueReusableCell<T: UICollectionViewCell>(
+    public func dequeueReusableCell<T: UICollectionViewCell>(
         for sectionController: ListSectionController,
         at index: Int,
         cellType: T.Type = T.self
@@ -27,9 +27,9 @@ public extension ListCollectionContext {
     }
 }
 
-public extension ListCollectionContext {
+extension ListCollectionContext {
 
-    func dequeueReusableSupplementaryView<T: UICollectionReusableView>(
+    public func dequeueReusableSupplementaryView<T: UICollectionReusableView>(
         ofKind kind: String,
         for sectionController: ListSectionController,
         at index: Int,

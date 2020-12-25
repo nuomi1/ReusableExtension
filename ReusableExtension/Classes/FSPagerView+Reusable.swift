@@ -9,17 +9,17 @@
 import FSPagerView
 import Reusable
 
-public extension FSPagerView {
+extension FSPagerView {
 
-    final func register<T: FSPagerViewCell>(cellType: T.Type) where T: NibReusable {
+    public final func register<T: FSPagerViewCell>(cellType: T.Type) where T: NibReusable {
         register(cellType.nib, forCellWithReuseIdentifier: cellType.reuseIdentifier)
     }
 
-    final func register<T: FSPagerViewCell>(cellType: T.Type) where T: Reusable {
+    public final func register<T: FSPagerViewCell>(cellType: T.Type) where T: Reusable {
         register(cellType.self, forCellWithReuseIdentifier: cellType.reuseIdentifier)
     }
 
-    final func dequeueReusableCell<T: FSPagerViewCell>(
+    public final func dequeueReusableCell<T: FSPagerViewCell>(
         at index: Int,
         cellType: T.Type = T.self
     ) -> T where T: Reusable {

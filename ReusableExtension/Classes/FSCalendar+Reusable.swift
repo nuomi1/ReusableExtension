@@ -9,13 +9,13 @@
 import FSCalendar
 import Reusable
 
-public extension FSCalendar {
+extension FSCalendar {
 
-    final func register<T: FSCalendarCell>(cellType: T.Type) where T: Reusable {
+    public final func register<T: FSCalendarCell>(cellType: T.Type) where T: Reusable {
         register(cellType.self, forCellReuseIdentifier: cellType.reuseIdentifier)
     }
 
-    final func dequeueReusableCell<T: FSCalendarCell>(
+    public final func dequeueReusableCell<T: FSCalendarCell>(
         for date: Date,
         at position: FSCalendarMonthPosition,
         cellType: T.Type = T.self

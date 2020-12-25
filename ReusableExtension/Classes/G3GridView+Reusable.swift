@@ -10,17 +10,17 @@ import class G3GridView.GridView
 import class G3GridView.GridViewCell
 import Reusable
 
-public extension GridView {
+extension GridView {
 
-    final func register<T: GridViewCell>(cellType: T.Type) where T: NibReusable {
+    public final func register<T: GridViewCell>(cellType: T.Type) where T: NibReusable {
         register(cellType.nib, forCellWithReuseIdentifier: cellType.reuseIdentifier)
     }
 
-    final func register<T: GridViewCell>(cellType: T.Type) where T: Reusable {
+    public final func register<T: GridViewCell>(cellType: T.Type) where T: Reusable {
         register(cellType.self, forCellWithReuseIdentifier: cellType.reuseIdentifier)
     }
 
-    final func dequeueReusableCell<T: GridViewCell>(
+    public final func dequeueReusableCell<T: GridViewCell>(
         for indexPath: IndexPath,
         cellType: T.Type = T.self
     ) -> T where T: Reusable {

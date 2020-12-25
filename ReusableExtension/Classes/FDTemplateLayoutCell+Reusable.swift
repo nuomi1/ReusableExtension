@@ -9,9 +9,9 @@
 import Reusable
 import UITableView_FDTemplateLayoutCell
 
-public extension UITableView {
+extension UITableView {
 
-    final func fd_templateCell<T: UITableViewCell>(cellType: T.Type) -> T where T: Reusable {
+    public final func fd_templateCell<T: UITableViewCell>(cellType: T.Type) -> T where T: Reusable {
         let bareCell = fd_templateCell(forReuseIdentifier: cellType.reuseIdentifier)
         guard let cell = bareCell as? T else {
             fatalError(
@@ -24,7 +24,7 @@ public extension UITableView {
         return cell
     }
 
-    final func fd_heightForCell<T: UITableViewCell>(
+    public final func fd_heightForCell<T: UITableViewCell>(
         cellType: T.Type,
         configuration: @escaping (T) -> Void
     ) -> CGFloat where T: Reusable {
@@ -42,7 +42,7 @@ public extension UITableView {
         }
     }
 
-    final func fd_heightForCell<T: UITableViewCell>(
+    public final func fd_heightForCell<T: UITableViewCell>(
         cellType: T.Type,
         cacheBy indexPath: IndexPath,
         configuration: @escaping (T) -> Void
@@ -64,7 +64,7 @@ public extension UITableView {
         }
     }
 
-    final func fd_heightForCell<T: UITableViewCell>(
+    public final func fd_heightForCell<T: UITableViewCell>(
         cellType: T.Type,
         cacheByKey key: String,
         configuration: @escaping (T) -> Void
@@ -87,9 +87,9 @@ public extension UITableView {
     }
 }
 
-public extension UITableView {
+extension UITableView {
 
-    final func fd_heightForHeaderFooterView<T: UITableViewHeaderFooterView>(
+    public final func fd_heightForHeaderFooterView<T: UITableViewHeaderFooterView>(
         viewType: T.Type,
         configuration: @escaping (T) -> Void
     ) -> CGFloat where T: Reusable {
