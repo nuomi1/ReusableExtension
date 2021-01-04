@@ -7,7 +7,7 @@ targets:
   ReusableExtension_Example:
     type: application
     platform: iOS
-    deploymentTarget: 9.0
+    deploymentTarget: 10.0
     sources:
       - ReusableExtension
     settings:

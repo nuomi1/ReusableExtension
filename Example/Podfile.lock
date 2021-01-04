@@ -3,7 +3,7 @@ PODS:
   - FSCalendar (2.8.1)
   - FSPagerView (0.8.3)
   - G3GridView (0.7.0)
-  - HJDanmaku (2.0.4)
+  - HJDanmaku (2.0.6)
   - IGListDiffKit (4.0.0)
   - IGListKit (4.0.0):
     - IGListDiffKit (= 4.0.0)
@@ -60,9 +60,9 @@ PODS:
   - RxRelay (5.1.1):
     - RxSwift (~> 5)
   - RxSwift (5.1.1)
-  - SpreadsheetView (0.8.4)
+  - SpreadsheetView (0.9.1)
   - "UITableView+FDTemplateLayoutCell (1.6)"
-  - VerticalCardSwiper (2.2.0)
+  - VerticalCardSwiper (2.3.0)
 
 DEPENDENCIES:
   - ReusableExtension (from `../`)
@@ -93,18 +93,18 @@ SPEC CHECKSUMS:
   FSCalendar: 5245140456fcbcac5824c203b98bd8068bdfee1a
   FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
   G3GridView: 3500ad938744d81f6707929c56ff71e78b37907e
-  HJDanmaku: 1e185e2fcc24105678b51c1b1baac914b0935efa
+  HJDanmaku: b3891e906e0dd1cefa39ccf43253a1ca1efb9241
   IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
   IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
   Reusable: 53a9acf5c536f229b31b5865782414b508252ddb
-  ReusableExtension: bf28a94e13fa83f4bf024e19f02b46412b90e0de
+  ReusableExtension: 091ef5f1016797e5a5336d9c2d6df699b8da5a10
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
-  SpreadsheetView: 17c55b6dc82099993cc2ceb818248d19f3220998
+  SpreadsheetView: 688dbd19f2b355df0eb09e486266fd913a013449
   "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
-  VerticalCardSwiper: 41c8c0d8d87511ec269347f5671386acf66cd31a
+  VerticalCardSwiper: b30d9306b0ec6d66cf6b3d1859a40823eefd01db
 
-PODFILE CHECKSUM: 3243b39cbc988a5a2b85056b4f574cd4f6f0b27e
+PODFILE CHECKSUM: 1207d60e07c7d50fdcf8e5f552175588c46555e4
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.0
